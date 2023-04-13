@@ -1,0 +1,72 @@
+*{
+    background: #f3f5fc;;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+.logo{
+   
+    padding-top: 20px;
+    margin-left: 20px;
+    
+}
+
+main{
+    display: flex;
+   margin: 5px;
+  
+   width: 95vw;
+
+}
+
+.text-area{
+    
+    display:inline-flex;
+    text-align: center;
+    width: 70%;
+    vertical-align: top;
+    margin: 3 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #0a3871;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+    
+}
+::placeholder {color:#0a3871}
+   .text-area:focus{
+    outline:none;
+}
+.informacion{
+    color: #0a3871;
+    text-align: center;
+
+}
+
+.botones{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around; 
+       
+    
+}
+
+.mensaje{
+    display: inline-block;
+    background-image: url("/imagenes/Muñeco.png");
+    text-align: center;
+    width: 70%;
+    vertical-align: top;
+    margin: 3 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #0a3871;
+    border-radius: 10px;
+    margin-left: 60px;
+    
+}
+.mensaje:focus{
+    outline: none;
+}
